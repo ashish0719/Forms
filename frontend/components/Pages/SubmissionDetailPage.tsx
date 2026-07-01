@@ -35,7 +35,7 @@ export default function SubmissionDetailPage({ submission }: Props) {
                 key={key}
                 className="flex items-center justify-between rounded-xl border border-zinc-200 bg-zinc-50 px-6 py-4"
               >
-                <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
+                <p className="text-sm font-semibold tracking-wide text-zinc-500">
                   {key.replaceAll("_", " ")}
                 </p>
 
@@ -58,7 +58,7 @@ export default function SubmissionDetailPage({ submission }: Props) {
                   key={key}
                   className="flex items-center justify-between rounded-xl border border-zinc-200 bg-zinc-50 px-6 py-4"
                 >
-                  <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500">
+                  <p className="text-sm font-semibold  tracking-wide text-zinc-500">
                     {key.replaceAll("_", " ")}
                   </p>
 

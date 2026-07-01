@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useRouter } from "next/navigation";
 
 import TextInputField from "@/components/FormFields/TextInputField";
 import RadioField from "@/components/FormFields/RadioField";
@@ -22,6 +23,7 @@ export default function FormRenderer({
   variant: any;
 }) {
   const [submitted, setSubmitted] = useState(false);
+  const router = useRouter();
 
   const schema = validationSchema(form.FormFields);
 
@@ -46,8 +48,6 @@ export default function FormRenderer({
   };
 
   const onSubmit = async (data: any) => {
-    console.log("React Hook Form data:", data);
-
     try {
       const response = await submitForm({
         formName: form.slug,
@@ -55,6 +55,8 @@ export default function FormRenderer({
       });
 
       console.log(response);
+
+      router.push("/submission");
     } catch (error) {
       console.error(error);
     }

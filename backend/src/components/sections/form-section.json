@@ -25,6 +25,9 @@
         "Glass",
         "Luxury"
       ]
+    },
+    "SubmissionButtonText": {
+      "type": "string"
     }
   },
   "config": {}

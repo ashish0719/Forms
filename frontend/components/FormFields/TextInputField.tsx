@@ -12,7 +12,7 @@ export default function TextInputField({
 
       <input
         id={field.fieldName}
-        type={field.inputType}
+        type={field.fieldType}
         placeholder={field.placeholder}
         className={variant.input}
         {...register(field.fieldName)}

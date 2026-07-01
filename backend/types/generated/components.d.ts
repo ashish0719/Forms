@@ -114,6 +114,7 @@ export interface SectionsFormSection extends Struct.ComponentSchema {
       ['Default', 'Card', 'Dark', 'Glass', 'Luxury']
     >;
     heading: Schema.Attribute.String;
+    SubmissionButtonText: Schema.Attribute.String;
   };
 }
 

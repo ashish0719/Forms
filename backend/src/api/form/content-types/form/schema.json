@@ -41,6 +41,12 @@
         "Glass",
         "Luxury"
       ]
+    },
+    "cardDescription": {
+      "type": "string"
+    },
+    "cardButtonText": {
+      "type": "string"
     }
   }
 }

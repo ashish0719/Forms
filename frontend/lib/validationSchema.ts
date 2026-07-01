@@ -182,6 +182,11 @@ export function validationSchema(fields: any[]) {
         shape[field.fieldName] = validator;
         break;
       }
+      case "form-fields.boolean-fields": {
+  shape[field.fieldName] = z.boolean();
+
+  break;
+}
 
       default:
         break;

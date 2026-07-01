@@ -451,6 +451,8 @@ export interface ApiFormForm extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    cardButtonText: Schema.Attribute.String;
+    cardDescription: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
