@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_form_sections",
+  "info": {
+    "displayName": "form section"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "forms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::form.form"
+    },
+    "globalVariant": {
+      "type": "enumeration",
+      "enum": [
+        "Default",
+        "Card",
+        "Dark",
+        "Glass",
+        "Luxury"
+      ]
+    }
+  },
+  "config": {}
+}

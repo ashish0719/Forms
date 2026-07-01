@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_form_fields_input_areas",
+  "info": {
+    "displayName": "Input Area"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "fieldName": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "ShowInCard": {
+      "type": "boolean"
+    },
+    "validation": {
+      "type": "component",
+      "component": "shared.validation",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

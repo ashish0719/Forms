@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_form_fields_input_fields",
+  "info": {
+    "displayName": "Input Field"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "fieldName": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "fieldType": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "email",
+        "password",
+        "number",
+        "tel",
+        "url",
+        "search",
+        "date",
+        "datetime-local",
+        "time",
+        "month",
+        "week",
+        "color",
+        "range",
+        "file"
+      ]
+    },
+    "ShowInCard": {
+      "type": "boolean"
+    },
+    "validation": {
+      "type": "component",
+      "component": "shared.validation",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

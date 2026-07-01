@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_fallback_fields",
+  "info": {
+    "displayName": "Fallback Field"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "fieldName": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

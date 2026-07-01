@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_form_fields_boolean_fields",
+  "info": {
+    "displayName": "Boolean Fields"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "fieldName": {
+      "type": "string"
+    },
+    "DefaultValue": {
+      "type": "boolean"
+    },
+    "ShowInCard": {
+      "type": "boolean"
+    },
+    "validation": {
+      "type": "component",
+      "component": "shared.validation",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
